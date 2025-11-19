@@ -1,9 +1,10 @@
+// app/layout.tsx
 import type { Metadata } from "next";
-import "./index.css"; // atau globals.css, sesuaikan
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "SiapKerja",
-  description: "Job readiness checklist platform",
+  title: "Siap Kerja",
+  description: "Checklist kesiapan kerja ala Eryca",
 };
 
 export default function RootLayout({
